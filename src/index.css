@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.fade-enter {
+  position: absolute;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 50;
+}
+
+.fade-enter.fade-enter-active {
+  position: absolute;
+  opacity: 1;
+  transition: opacity 300ms ease-in-out
+}
+
+.fade-exit {
+  opacity: 1;
+  z-index: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out
+}
