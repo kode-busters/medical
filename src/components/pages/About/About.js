@@ -21,7 +21,7 @@ const About = () => {
                             <Card.Body>
                                 <Card.Title><h4>Blockchain System</h4></Card.Title>
                                 <Card.Text>
-                                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/17-internet-network-technology/encrypted.png" alt="Blockchain system"/>
+                                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/17-internet-network-technology/encrypted.png" alt="Blockchain system" />
                                 </Card.Text>
                                 <Card.Text>
                                     Our app utilizes Blockchain system which improves the security and data privacy protection significantly.
@@ -35,7 +35,7 @@ const About = () => {
                             <Card.Body className='text-center'>
                                 <Card.Title>Peer to Peer Vaccination Verification</Card.Title>
                                 <Card.Text>
-                                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/17-internet-network-technology/smartphone-transfer.png" alt="Peer to Peer Vaccination Verification"/>
+                                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/17-internet-network-technology/smartphone-transfer.png" alt="Peer to Peer Vaccination Verification" />
                                 </Card.Text>
                                 <Card.Text>
                                     Utilizing blockchain systems makes the control of public medical data easier and more secure. The only public data displayed assosciated to you is your Covid-19 vaccination record
@@ -49,7 +49,7 @@ const About = () => {
                             <Card.Body className='text-center'>
                                 <Card.Title>Secure Medical Records</Card.Title>
                                 <Card.Text>
-                                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/21-medical-science-lab/diagnostic-pulse.png" alt="Secure Medical Records"/>
+                                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/21-medical-science-lab/diagnostic-pulse.png" alt="Secure Medical Records" />
                                 </Card.Text>
                                 <Card.Text>
                                     Every medical records being sent from our app is secured with key, controlling the availabity for the public.
@@ -61,9 +61,12 @@ const About = () => {
                     <div className='col-lg-3 p-2'>
                         <Card className='text-center border-5 border-success'>
                             <Card.Body className='text-center'>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Untampered Data</Card.Title>
                                 <Card.Text>
-                                    
+                                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/04-file-folder-type/wrong-file.png" alt="untampered data" />
+                                </Card.Text>
+                                <Card.Text>
+                                    The use of blockchain system also boasts immutable data entries, making any outside modification useless keeping the true data as is.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
