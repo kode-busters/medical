@@ -1,23 +1,25 @@
 import React from 'react';
 import { Button, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import { Helmet } from "react-helmet";
-import img from '../../../img/home-bg.png';
-import classes from './Home.module.css'
+import img from '../../../img/quasar device.png';
+import classes from './Home.module.css';
+import logodark2 from '../../../img/logo2dark.png'
 
 const Home = () => {
     return (
         <div className={classes.pagesContainer}>
             <Helmet>
-                <title>Company | Home</title>
+                <title>Quasar | Home</title>
             </Helmet>
             <Container fluid>
                 <Row className='p-5 d-flex justify-content-center align-items-center'>
                     <div className='col-lg-6 mb-2'>
-                        <h1 className='mb-2'>App Name</h1>
-                        <p className='mb-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                        <Button className='bg-success mb-2'>Learn More</Button>
+                        <img src={logodark2} alt="quasar logo" />
+                        <p className='mb-2'>One of the very first Health Information Security App in the Philippines with Blockchain Technology utilization for a more secure and seamless data protection</p>
+                        <Link to='/about'><Button className='bg-success mb-2'>Learn More</Button></Link>
                     </div>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-5'>
                         <img src={img} alt='Vaccination Vector' className='w-100'/>
                     </div>
                 </Row>

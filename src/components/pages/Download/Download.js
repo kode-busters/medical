@@ -8,7 +8,7 @@ const Download = () => {
     return (
         <div className={classes.pagesContainer}>
             <Helmet>
-                <title>Company | Download</title>
+                <title>Quasar | Download</title>
             </Helmet>
             <Container fluid>
                 <div className='row my-3'>

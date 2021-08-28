@@ -6,7 +6,11 @@
     bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh-70px);
+    min-height: calc(100vh-70px);
     width: 100%;
     background-image: url('../../../img/bg-home.jpg');
+}
+
+.pagesContainer img {
+    width: 200px;
 }

@@ -10,3 +10,16 @@
     width: 100%;
     background-image: url('../../../img/bg-download.png');
 }
+
+.pagesContainer img {
+    min-width: 25%;
+    max-width: 30%;
+}
+
+.aboutHeader h1 {
+    font-family: "Russo One"
+}
+
+.aboutHeader h1 font {
+    color: #fded09;
+}

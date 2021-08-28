@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div className='pages-container'>
             <Helmet>
-                <title>Company | Contact</title>
+                <title>Quasar | Contact</title>
             </Helmet>
             Contact
         </div>
